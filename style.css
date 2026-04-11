@@ -925,6 +925,10 @@ tbody tr td span {
     float: right;
     width: 65%;
   }
+  .customerReviews .reviews .card {
+    height: 282px;
+    overflow: visible;
+  }
   .productBox {
     width: 23%;
     margin-right: 2%;
