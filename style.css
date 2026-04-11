@@ -5,6 +5,9 @@
   background-color: #7c3aed;
   color: white;
 }
+html {
+  scroll-behavior: smooth;
+}
 body {
   font-family: "EXO", sans-serif;
   margin: 0;
