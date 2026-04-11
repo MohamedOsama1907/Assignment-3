@@ -99,9 +99,7 @@ button {
   margin-top: 18px;
   display: none;
 }
-.links {
-  display: none;
-}
+
 .links li {
   display: inline-block;
   padding: 10px;
@@ -817,16 +815,16 @@ tbody tr td span {
   cursor: pointer;
   transition: background-color 0.2s ease-in;
 }
-.footProduct .socialMedia .facebook:hover {
+span.facebook:hover {
   background-color: #1877f2;
 }
-.footProduct .socialMedia span:hover {
+span.twitter:hover {
   background-color: #1da1f2;
 }
-.footProduct .socialMedia span:hover {
+span.instagram:hover {
   background-color: #e4405f;
 }
-.footProduct .socialMedia span:hover {
+span.youtube:hover {
   background-color: red;
 }
 .footProduct .socialMedia span i {
