@@ -5,16 +5,6 @@
 
 A responsive product landing page built using **HTML5 & CSS3**, showcasing a modern UI for a professional drone product.
 
-## 🔗 Live Demo
-
-👉 https://mohamedosama1907.github.io/Assignment-3/
-
-## 📁 Repository
-
-👉 https://github.com/MohamedOsama1907/Assignment-3
-
----
-
 ## 📌 Features
 
 * Fully responsive design (Mobile → Tablet → Desktop)
@@ -53,7 +43,15 @@ A responsive product landing page built using **HTML5 & CSS3**, showcasing a mod
 * Large Screens: `min-width: 1370px`
 
 ---
+## 🔗 Live Demo
 
+👉 https://mohamedosama1907.github.io/Assignment-3/
+
+## 📁 Repository
+
+👉 https://github.com/MohamedOsama1907/Assignment-3
+
+---
 ## 💡 Notes
 
 * This project focuses on mastering **float-based layouts** instead of Flexbox/Grid.
