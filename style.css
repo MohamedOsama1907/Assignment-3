@@ -145,7 +145,7 @@ button {
 .home .image {
   padding: 20px;
   border-radius: 4%;
-  border: 1px solid #e4e6ea;
+  border: 2px solid #e4e6ea;
   margin-bottom: 66px;
   position: relative;
   height: 600px;
@@ -180,7 +180,8 @@ button {
   font-weight: 700;
   line-height: 60px;
 }
-h1,
+
+h1 span,
 h2 span {
   color: #8e51ff;
 }
@@ -320,8 +321,6 @@ table {
   width: 800px;
   /* to remove the white space */
   border-collapse: collapse;
-  /*  */
-  table-layout: fixed;
 }
 table tr td {
   padding: 16px;
@@ -765,12 +764,13 @@ tbody tr td span {
   color: white;
 }
 .footer .container .contact {
-  margin-bottom: 30px;
-  padding-bottom: 30px;
+  /* to fix the margin collaps ( overflow: auto,  padding-top: 1px, border: 1px solid transparent, ) */
+  overflow: auto;
 }
+
+/* > mean the direct child */
 .footer .container .contact > div {
-  float: left;
-  width: 25%;
+  /* mobile style */
 }
 .footIcon {
   display: flex;
@@ -830,7 +830,7 @@ tbody tr td span {
   font-size: 20px;
 }
 .contact > div h4 {
-  margin-bottom: 24px;
+  margin-bottom: 30px;
   font-size: 18px;
   font-weight: 600;
   line-height: 28px;
@@ -864,7 +864,7 @@ tbody tr td span {
 }
 .footer .payMethods .payImage {
   background-color: white;
-  padding: 14px;
+  padding: 12px;
   border-radius: 8px;
   margin-right: 20px;
 }
@@ -875,6 +875,9 @@ tbody tr td span {
   height: 16px;
 }
 /* RDW */
+
+/* to put two boxes in the page */
+/* Medium devices (landscape tablets) */
 @media (min-width: 767px) {
   .productBox {
     width: 48%;
@@ -889,7 +892,14 @@ tbody tr td span {
   .productBox:hover img {
     transform: scale(1.06);
   }
+  .footer .container .contact > div {
+    float: left;
+    width: 50%;
+  }
 }
+
+/* Large devices */
+
 @media screen and (min-width: 1024px) {
   .links {
     display: block;
@@ -922,6 +932,9 @@ tbody tr td span {
     padding: 24px;
     height: 400px;
   }
+  .box4 {
+    margin-right: 0;
+  }
   .productBox .image {
     width: 100%;
     height: 50%;
@@ -929,11 +942,12 @@ tbody tr td span {
   .productBox:hover img {
     transform: scale(1.09);
   }
-
-  .box4 {
-    margin-right: 0;
+  .footer .container .contact > div {
+    float: left;
+    width: 25%;
   }
 }
+/* Extra large devices */
 @media (min-width: 1370px) {
   .container {
     width: 80%;
