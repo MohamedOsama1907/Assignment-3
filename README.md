@@ -68,9 +68,4 @@ A responsive product landing page built using **HTML5 & CSS3**, showcasing a mod
 * Refactor layout using Flexbox/Grid
 * Enhance UI with shadows and depth
 
----
-
-## 👨‍💻 Author
-
-Mohamed Osama
 
