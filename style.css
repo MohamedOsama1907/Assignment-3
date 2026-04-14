@@ -139,13 +139,13 @@ button {
   padding: 176px 0 6px;
 }
 .home .image img {
-  border-radius: 4%;
+  border-radius: 7%;
   height: 100%;
   object-fit: cover;
 }
 .home .image {
   padding: 20px;
-  border-radius: 4%;
+  border-radius: 7%;
   border: 2px solid #e4e6ea;
   margin-bottom: 66px;
   position: relative;
@@ -854,6 +854,8 @@ span.youtube:hover {
   overflow: auto;
   width: 100%;
   display: flex;
+  grid-row: 20px;
+  flex-direction: column;
   align-items: center;
   justify-content: space-between;
   padding-top: 32px;
@@ -862,6 +864,9 @@ span.youtube:hover {
 }
 .footer .foot .payMethods {
   display: flex;
+}
+.privacyPolicy {
+  margin-bottom: 20px;
 }
 .footer .payMethods .payImage {
   background-color: white;
@@ -875,7 +880,7 @@ span.youtube:hover {
 .payImage img {
   height: 16px;
 }
-/* RDW */
+/* RWD */
 
 /* to put two boxes in the page */
 /* Medium devices (landscape tablets) */
@@ -950,6 +955,9 @@ span.youtube:hover {
   .footer .container .contact > div {
     float: left;
     width: 25%;
+  }
+  .footer .foot {
+    flex-direction: row;
   }
 }
 /* Extra large devices */
