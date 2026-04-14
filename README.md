@@ -1,7 +1,4 @@
-# Assignment-3
-
-
-# 🚁 DJI Mavic 4 Pro Landing Page
+# Assignment-3 – Route Academy(🚁 DJI Mavic 4 Pro Landing Page)
 
 A responsive product landing page built using **HTML5 & CSS3**, showcasing a modern UI for a professional drone product.
 
