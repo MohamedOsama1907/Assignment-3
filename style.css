@@ -33,7 +33,7 @@ button {
   cursor: pointer;
 }
 .container {
-  width: 93%;
+  width: 92%;
   margin: auto;
 }
 
@@ -866,7 +866,8 @@ span.youtube:hover {
   display: flex;
 }
 .privacyPolicy {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
+  text-align: center;
 }
 .footer .payMethods .payImage {
   background-color: white;
